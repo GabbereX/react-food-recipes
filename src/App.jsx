@@ -13,7 +13,7 @@ import { Recipe } from './pages/Recipe';
 export function App() {
   return (
     <>
-      <BrowserRouter basename='https://gabberex.github.io/react-food-recipes/'>
+      <BrowserRouter basename='/react-food-recipes'>
         <Header />
         <main className='main'>
           <div className='container main__container'>
