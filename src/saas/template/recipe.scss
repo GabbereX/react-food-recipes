@@ -1,0 +1,61 @@
+.recipe {
+  &__title {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 15px;
+  }
+  &__image {
+    display: block;
+    margin: 0 auto 25px;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    & > h6:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+  &__description {
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  &__table {
+    width: 100%;
+    margin-bottom: 25px;
+    &-head {
+      &-container {
+      }
+      &-item {
+        padding-bottom: 15px;
+      }
+    }
+    &-body {
+      &-container {
+        background: #fffe7d;
+        &:nth-child(2n) {
+          background: #fff;
+        }
+      }
+      &-item {
+        padding: 6px 0;
+        text-align: center;
+      }
+    }
+  }
+  &__video {
+    width: 500px;
+    height: 350px;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    &-title {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  }
+}
